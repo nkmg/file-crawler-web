@@ -12,8 +12,8 @@ var routeSearching = []Route{
 		Handler: controller.LoadSearchInitial,
 	},
 	{
-		URI:     "/search",
-		Method:  http.MethodGet,
-		Handler: controller.LoadSearchInitial,
+		URI:     "/",
+		Method:  http.MethodPost,
+		Handler: controller.SendSearchForm,
 	},
 }

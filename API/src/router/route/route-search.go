@@ -7,12 +7,12 @@ import (
 
 var routeSearching = []Route{
 	{
-		URI:     "/search",
+		URI:     "/searching",
 		Method:  http.MethodPost,
 		Handler: controller.SearchingFiles,
 	},
 	{
-		URI:     "/search",
+		URI:     "/searching",
 		Method:  http.MethodGet,
 		Handler: controller.ReturnFiles,
 	},
